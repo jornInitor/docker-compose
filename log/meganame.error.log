@@ -1,0 +1,1554 @@
+2019/01/07 15:09:07 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/login HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 15:18:19 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 15:30:19 [warn] 6#6: *20 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 15:57:01 [warn] 6#6: *38 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 16:01:16 [warn] 6#6: *44 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 16:39:51 [warn] 6#6: *97 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 16:40:29 [warn] 6#6: *97 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 16:50:36 [warn] 6#6: *104 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:21:14 [warn] 6#6: *114 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:26:45 [warn] 6#6: *116 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:36:07 [warn] 6#6: *120 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:39:03 [error] 6#6: *122 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:39:52 [warn] 6#6: *122 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:41:52 [warn] 6#6: *125 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/01/0000000013 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:43:51 [warn] 6#6: *127 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/01/0000000014 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:51:35 [warn] 6#6: *129 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/01/0000000015 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:54:08 [warn] 6#6: *131 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/01/0000000016 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:54:34 [warn] 6#6: *131 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/01/0000000017 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:55:21 [warn] 6#6: *131 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/01/0000000018 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:56:17 [warn] 6#6: *131 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/01/0000000019 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:57:39 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/02/0000000020 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:58:07 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/02/0000000021 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:58:33 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/02/0000000022 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:58:45 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/02/0000000023 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:59:41 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/02/0000000024 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 17:59:53 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/02/0000000025 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:00:30 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/02/0000000026 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:01:04 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/02/0000000027 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:01:37 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/02/0000000028 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:02:00 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/02/0000000029 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:02:52 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/03/0000000030 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:03:15 [warn] 6#6: *139 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/03/0000000031 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:05:41 [warn] 6#6: *153 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/03/0000000032 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:28:46 [error] 6#6: *169 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:29:46 [error] 6#6: *169 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:55:51 [error] 6#6: *181 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 18:56:51 [error] 6#6: *181 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 19:03:41 [error] 6#6: *184 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 19:04:41 [error] 6#6: *184 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 19:07:48 [warn] 6#6: *187 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/03/0000000033 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 19:08:19 [warn] 6#6: *187 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/03/0000000034 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/07 19:16:54 [warn] 6#6: *195 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/03/0000000035 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 10:32:41 [warn] 6#6: *17 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/login HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 10:38:13 [warn] 6#6: *21 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 10:46:09 [warn] 6#6: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 10:46:48 [warn] 6#6: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 11:43:06 [warn] 6#6: *44 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 16:24:55 [warn] 6#6: *73 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 16:27:32 [warn] 6#6: *77 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 16:30:01 [warn] 6#6: *81 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/sync HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/08 18:43:05 [warn] 6#6: *101 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/login HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 09:54:57 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/login HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 09:58:09 [warn] 6#6: *6 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/confirm HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 10:56:23 [warn] 6#6: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/login HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 11:16:53 [warn] 6#6: *41 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 15:05:25 [warn] 6#6: *66 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 15:27:28 [warn] 6#6: *78 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/admins/3/roles HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 15:37:56 [warn] 6#6: *89 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "DELETE /api/admin/login HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/09 17:37:01 [warn] 6#6: *104 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "PUT /api/admin/login HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/12 16:51:52 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/12 17:00:18 [warn] 6#6: *8 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "PUT /api/admin/competitions/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/14 15:34:20 [warn] 6#6: *46 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "PUT /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/14 15:38:54 [warn] 6#6: *51 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "PUT /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/14 17:15:59 [warn] 6#6: *79 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/signDots HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 16:37:59 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/zones HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 16:41:34 [warn] 6#6: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/zones HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 16:44:54 [warn] 6#6: *9 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/zones HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 16:46:14 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/zones HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 16:46:41 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/zones HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 16:48:19 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/zones HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 18:39:06 [warn] 6#6: *45 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/procedures HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 18:40:17 [warn] 6#6: *47 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/procedures HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 18:41:48 [warn] 6#6: *49 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/procedures HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 18:42:34 [warn] 6#6: *49 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/procedures HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/15 18:44:18 [warn] 6#6: *52 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/procedures HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/17 14:32:53 [warn] 6#6: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:33:27 [warn] 6#6: *3 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:33:50 [warn] 6#6: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:36:40 [warn] 6#6: *20 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:38:12 [warn] 6#6: *26 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:38:36 [warn] 6#6: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:39:08 [warn] 6#6: *22 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:39:51 [warn] 6#6: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:41:21 [error] 6#6: *23 FastCGI sent in stderr: "PHP message: [2019-01-17 06:41:21] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071oLHaJ1TVKq20oqEaJ1FNKaJ1oLHa2&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:41:19 GMT
+Content-Length: 82
+
+{"session_key":"lPvKU3S74mgK1tAgffz81A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:41:53 [error] 6#6: *22 FastCGI sent in stderr: "PHP message: [2019-01-17 06:41:53] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011rHeiI1Cgu720HuBeI1tBCiI1rHeib&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:41:51 GMT
+Content-Length: 82
+
+{"session_key":"lPvKU3S74mgK1tAgffz81A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:42:24 [error] 6#6: *22 FastCGI sent in stderr: "PHP message: [2019-01-17 06:42:24] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071JvnTV0TtxJ12MNERV0pluTV0JvnT7&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:42:22 GMT
+Content-Length: 82
+
+{"session_key":"lPvKU3S74mgK1tAgffz81A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:42:28 [error] 6#6: *22 FastCGI sent in stderr: "PHP message: [2019-01-17 06:42:28] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081ELSFO01gpa42vdOHO0DpCFO0ELSFd&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:42:26 GMT
+Content-Length: 82
+
+{"session_key":"lPvKU3S74mgK1tAgffz81A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:43:30 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [2019-01-17 06:43:30] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081dFXlh2zgWBA0JYYih2ioNlh2dFXlH&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:43:28 GMT
+Content-Length: 82
+
+{"session_key":"iJd5rsamxF4H4THm4d9q+w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:50:12 [error] 6#6: *68 FastCGI sent in stderr: "PHP message: [2019-01-17 06:50:12] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011NF5BE1wWeW60geHxE1VQqBE1NF5Bv&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:50:10 GMT
+Content-Length: 82
+
+{"session_key":"6F5b4rRIOj+l+GGsVSx68w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:50:12 [warn] 6#6: *68 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:50:49 [error] 6#6: *64 FastCGI sent in stderr: "PHP message: [2019-01-17 06:50:48] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071ArAZQ0Cg7u62CLnXQ0LbQZQ0ArAZa&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:50:46 GMT
+Content-Length: 82
+
+{"session_key":"6F5b4rRIOj+l+GGsVSx68w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:50:49 [warn] 6#6: *64 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:51:46 [error] 6#6: *65 FastCGI sent in stderr: "PHP message: [2019-01-17 06:51:46] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011lI5v924yBuL0EmFx92ZWiv92lI5vj&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:51:44 GMT
+Content-Length: 82
+
+{"session_key":"6F5b4rRIOj+l+GGsVSx68w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:52:58 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:52:57] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001v9cjJ1oan830rlkjJ1DE5jJ1v9cjc&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:52:56 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:52:58 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:52:57] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001l0y5b0ca26z1sGJ5b0XTz5b0l0y5M&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:52:56 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:53:00 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:53:00] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021q9SX61kiG7M1MlgV61lLSX61q9SXG&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:52:58 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:53:36 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:53:36] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001lCSc31HDISQ15KZc31JH3d31lCScc&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:53:34 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:53:36 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:53:36] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071o4eVX0mxeGU18KmVX0hdaVX0o4eV4&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:53:34 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:53:39 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:53:39] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011GA56m1jX9lp0p3y6m1kdG5m1GA56T&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:53:37 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:54:41 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:54:41] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021qkoRe0yOQlu1SmCTe0TbkRe0qkoR-&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:54:39 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:54:41 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:54:41] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071ZU7rP1tyfha17nYoP1p9XqP1ZU7ro&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:54:39 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:54:44 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:54:44] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021z3JcN1nXU281iTjeN1mIScN1z3JcF&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:54:42 GMT
+Content-Length: 82
+
+{"session_key":"2G9CMrUvx3r02YOpTBhmfQ==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:55:23 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:55:22] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0212OaHK1bkmw40FvBFK1i9RGK12OaHY&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:55:20 GMT
+Content-Length: 82
+
+{"session_key":"C4aPTLs2n0HyU6i4hf6cow==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:55:23 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:55:22] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021vkxD228znNW0xvYC22HzPD22vkxDa&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:55:20 GMT
+Content-Length: 82
+
+{"session_key":"C4aPTLs2n0HyU6i4hf6cow==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:55:25 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:55:25] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071jw58h1Wcfst0nt8ah1lUa8h1jw58v&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:55:23 GMT
+Content-Length: 82
+
+{"session_key":"C4aPTLs2n0HyU6i4hf6cow==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:56:33 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:56:32] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021BsvjN0yOVjb2auAgN0qcsjN0Bsvj6&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:56:30 GMT
+Content-Length: 82
+
+{"session_key":"C4aPTLs2n0HyU6i4hf6cow==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:56:33 [warn] 6#6: *78 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:56:33 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:56:32] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061rqgIY18G6SS09Q3LY1uzqIY1rqgIv&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:56:30 GMT
+Content-Length: 82
+
+{"session_key":"C4aPTLs2n0HyU6i4hf6cow==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:56:33 [warn] 6#6: *76 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:56:36 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:56:35] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021wlrZc2l6NTF0PKa1d2Y9DZc2wlrZ0&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:56:34 GMT
+Content-Length: 82
+
+{"session_key":"C4aPTLs2n0HyU6i4hf6cow==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:57:27 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:57:27] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0616GbVG106ab00VIzUG1cYqVG16GbVt&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:57:25 GMT
+Content-Length: 82
+
+{"session_key":"MAUpdwR58Yoigw2ilbRRBA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:57:27 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:57:27] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081UD1511k0epY1amd111BoP411UD15e&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:57:25 GMT
+Content-Length: 82
+
+{"session_key":"MAUpdwR58Yoigw2ilbRRBA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:57:30 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:57:30] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001AhwG60s27MD1nakH60fgbG60AhwGJ&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:57:28 GMT
+Content-Length: 82
+
+{"session_key":"MAUpdwR58Yoigw2ilbRRBA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:58:13 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: [2019-01-17 06:58:12] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001BzhFu05zfUi1bXFGu0gRjFu0BzhFA&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:58:11 GMT
+Content-Length: 82
+
+{"session_key":"MAUpdwR58Yoigw2ilbRRBA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:58:13 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:58:12] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061khtaB02EpUh2tzv9B0EhraB0khtax&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:58:11 GMT
+Content-Length: 82
+
+{"session_key":"MAUpdwR58Yoigw2ilbRRBA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:58:16 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: [2019-01-17 06:58:15] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0015YKZG1e0Of00M8lYG136OZG15YKZz&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:58:14 GMT
+Content-Length: 82
+
+{"session_key":"MAUpdwR58Yoigw2ilbRRBA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:59:36 [error] 6#6: *103 FastCGI sent in stderr: "PHP message: [2019-01-17 06:59:35] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061YQW3v1qqqzf0IDB2v1TNL3v1YQW39&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:59:33 GMT
+Content-Length: 82
+
+{"session_key":"hn20wH3P8Q8iGh4L2SmZdg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:59:36 [warn] 6#6: *103 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/01/0000000013 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:59:36 [error] 6#6: *105 FastCGI sent in stderr: "PHP message: [2019-01-17 06:59:35] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071sxudN1G3D381YrCcN199DdN1sxudL&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:59:33 GMT
+Content-Length: 82
+
+{"session_key":"hn20wH3P8Q8iGh4L2SmZdg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:59:36 [warn] 6#6: *105 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/01/0000000014 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:59:39 [error] 6#6: *105 FastCGI sent in stderr: "PHP message: [2019-01-17 06:59:38] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011Kx0UL1WEcK61OWdRL1pQ0UL1Kx0Ug&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 06:59:36 GMT
+Content-Length: 82
+
+{"session_key":"hn20wH3P8Q8iGh4L2SmZdg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 14:59:39 [warn] 6#6: *105 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/01/0000000015 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:01:13 [error] 6#6: *108 FastCGI sent in stderr: "PHP message: [2019-01-17 07:01:11] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081AwF5a1vwhGO1eXN5a1ngK5a1AwF53&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:01:09 GMT
+Content-Length: 82
+
+{"session_key":"hn20wH3P8Q8iGh4L2SmZdg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:01:13 [error] 6#6: *110 FastCGI sent in stderr: "PHP message: [2019-01-17 07:01:11] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081ZMz0g1knJks0pev0g1Ewt0g1ZMz0Y&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:01:09 GMT
+Content-Length: 82
+
+{"session_key":"hn20wH3P8Q8iGh4L2SmZdg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:01:15 [error] 6#6: *108 FastCGI sent in stderr: "PHP message: [2019-01-17 07:01:15] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001K5bWg2NHlLA0cVwYg2YBRVg2K5bWt&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:01:13 GMT
+Content-Length: 82
+
+{"session_key":"hn20wH3P8Q8iGh4L2SmZdg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:14:53 [error] 6#6: *115 FastCGI sent in stderr: "PHP message: [2019-01-17 07:14:52] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001gbUOa2ghpOM0W2aPa2YEQOa2gbUOY&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:14:50 GMT
+Content-Length: 82
+
+{"session_key":"Bph8FJ16EeXOomGAC8EVeg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:14:56 [error] 6#6: *118 FastCGI sent in stderr: "PHP message: [2019-01-17 07:14:56] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=07122tXb0vP4xA1bK2Xb0I5uXb022tXe&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:14:54 GMT
+Content-Length: 82
+
+{"session_key":"Bph8FJ16EeXOomGAC8EVeg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:46:35 [warn] 6#6: *129 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/01/0000000016 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/17 15:48:35 [warn] 6#6: *133 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/01/0000000017 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/17 15:55:47 [error] 6#6: *147 FastCGI sent in stderr: "PHP message: [2019-01-17 07:55:46] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081HEDtB1pK7td0KBwtB1QNItB1HEDtg&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:55:44 GMT
+Content-Length: 82
+
+{"session_key":"SN0J+aiAPaaooXzicQfe8g==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:58:53 [error] 6#6: *153 FastCGI sent in stderr: "PHP message: [2019-01-17 07:58:52] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081hEdqz1JoAQa0BkEpz1CTVpz1hEdqx&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:58:51 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:58:53 [error] 6#6: *151 FastCGI sent in stderr: "PHP message: [2019-01-17 07:58:52] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061KGDbt0otCqh171Hat0kfAbt0KGDbP&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:58:51 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:58:57 [error] 6#6: *151 FastCGI sent in stderr: "PHP message: [2019-01-17 07:58:56] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081Ij0w60NMLaE1m73t60HsNv60Ij0w1&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:58:55 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 15:58:57 [error] 6#6: *153 FastCGI sent in stderr: "PHP message: [2019-01-17 07:58:56] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0711EETz1pkbTb0iABTz1MtvTz11EETS&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 07:58:55 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:00:45 [error] 6#6: *157 FastCGI sent in stderr: "PHP message: [2019-01-17 08:00:44] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011HYXs11CXUdY1YJBt118uLs11HYXse&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:00:42 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:00:45 [error] 6#6: *159 FastCGI sent in stderr: "PHP message: [2019-01-17 08:00:44] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071tVoM90eh0my1RgJJ90VHAM90tVoMd&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:00:42 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:00:48 [error] 6#6: *163 FastCGI sent in stderr: "PHP message: [2019-01-17 08:00:47] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001sveBk1hwhQn0VEVxk1z67Bk1sveBf&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:00:46 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:00:49 [error] 6#6: *159 FastCGI sent in stderr: "PHP message: [2019-01-17 08:00:48] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=071gLrhf1psFBr013pkf1vKvhf1gLrhy&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:00:47 GMT
+Content-Length: 82
+
+{"session_key":"nTYNvUSp6wxgCAVn2zsUbA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:16 [error] 6#6: *163 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:15] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061noAm30mrqxJ19ZLl30DGRm30noAmP&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:14 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:16 [error] 6#6: *159 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:15] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011L18lj1IrlFv0doamj15oSkj1L18lx&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:14 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:19 [error] 6#6: *163 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:19] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061xQYyx0pVLIc17Oqvx091Pyx0xQYyq&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:17 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:19 [error] 6#6: *159 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:19] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001Ptoqs1ljdAm05WMrs1jDwqs1Ptoqr&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:17 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:31 [error] 6#6: *159 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:30] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081QXCdM0UA6ea2yFffM0dw2eM0QXCdy&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:29 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:31 [error] 6#6: *163 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:30] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021jB78h03qFCw1jmq6h0xM48h0jB78B&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:29 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:36 [error] 6#6: *163 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:35] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081El1ix1IwxNh0LA0ix122eix1El1iD&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:33 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:01:36 [error] 6#6: *159 FastCGI sent in stderr: "PHP message: [2019-01-17 08:01:35] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011HQckk2L9t9E02Wgkk2N9dkk2HQckN&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:01:33 GMT
+Content-Length: 82
+
+{"session_key":"Nyzh08g7KBdVFV1mGeQBuA==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:02:42 [warn] 6#6: *175 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/01/0000000018 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/17 16:05:39 [warn] 6#6: *178 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/01/0000000019 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/17 16:10:40 [error] 6#6: *184 FastCGI sent in stderr: "PHP message: [2019-01-17 08:10:40] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001lBtPz1UuYOb0sn8Rz1axkPz1lBtPy&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:10:38 GMT
+Content-Length: 83
+
+{"session_key":"jIt0S9\/RwPpQxihrT2Sv2A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:10:40 [error] 6#6: *182 FastCGI sent in stderr: "PHP message: [2019-01-17 08:10:40] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021ytlp32NvZtO0sPoo3265ap32ytlpf&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:10:38 GMT
+Content-Length: 83
+
+{"session_key":"jIt0S9\/RwPpQxihrT2Sv2A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:10:44 [error] 6#6: *182 FastCGI sent in stderr: "PHP message: [2019-01-17 08:10:44] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0813Ybr41wydGS1pLmr41bJUq413YbrG&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:10:42 GMT
+Content-Length: 83
+
+{"session_key":"jIt0S9\/RwPpQxihrT2Sv2A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:10:44 [error] 6#6: *184 FastCGI sent in stderr: "PHP message: [2019-01-17 08:10:44] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061paKAW0876032AUABW0GbDAW0paKAm&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:10:42 GMT
+Content-Length: 83
+
+{"session_key":"jIt0S9\/RwPpQxihrT2Sv2A==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:17:54 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: [2019-01-17 08:17:53] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0016LMPt0e3zvh1PHMQt0QVzPt06LMPL&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:17:51 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:17:54 [error] 6#6: *193 FastCGI sent in stderr: "PHP message: [2019-01-17 08:17:53] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061iETBX0me0WU1G7iFX0BKWBX0iETBn&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:17:51 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:17:58 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: [2019-01-17 08:17:57] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=061uo18n1GKTNp0YZi5n1Arh8n1uo18a&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:17:55 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:17:58 [error] 6#6: *193 FastCGI sent in stderr: "PHP message: [2019-01-17 08:17:57] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081hmdfO0Xpya32JqzhO0lXqfO0hmdfm&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:17:55 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:18:54 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: [2019-01-17 08:18:53] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=081AenoF0Cd0uc2wtuqF0Nq8oF0AenoQ&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:18:51 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:18:54 [error] 6#6: *193 FastCGI sent in stderr: "PHP message: [2019-01-17 08:18:53] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021TLcLk2Neb1E0qm7Jk28bhLk2TLcLz&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:18:51 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:18:58 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: [2019-01-17 08:18:57] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0614Z5CM1iKfs71KPDAM1tD8CM14Z5C4&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:18:56 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:18:58 [error] 6#6: *193 FastCGI sent in stderr: "PHP message: [2019-01-17 08:18:57] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=0218J0fu1gTEjf0Hf5du1iFQeu18J0fu&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:18:56 GMT
+Content-Length: 82
+
+{"session_key":"Ely2Wdo2DlEiTRdmK3zT2w==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:20:00 [error] 6#6: *193 FastCGI sent in stderr: "PHP message: [2019-01-17 08:20:00] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021xVMnW04cSd22mEHmW0CSDnW0xVMng&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:19:58 GMT
+Content-Length: 82
+
+{"session_key":"qjtgTGpmmZ+7Gm0y2JfYwg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:20:00 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: [2019-01-17 08:20:00] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=001En3uM0NyK3b2g88xM0Ci1uM0En3uy&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:19:58 GMT
+Content-Length: 82
+
+{"session_key":"qjtgTGpmmZ+7Gm0y2JfYwg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:20:04 [error] 6#6: *208 FastCGI sent in stderr: "PHP message: [2019-01-17 08:20:03] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=011KRN7n0z6KSj1knO5n0fl78n0KRN7T&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:20:01 GMT
+Content-Length: 82
+
+{"session_key":"qjtgTGpmmZ+7Gm0y2JfYwg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:20:04 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: [2019-01-17 08:20:03] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=17_9r7syyReC2UcBRUrd4didtL2DeFimbFOZeVmSU9w5EdupOMMpGhNdui4VfUoAfc_QmboHoVla8yWiGDiOQYZvNihl1MoQdtpP-gYNjFfYaDkKohx7WGjquR2QAFJzHNS_3iQGJlU6cDexvc4KCEdAFAASU&appid=wx2ddd9a27cea824aa&secret=cfced81a6e8f36fddcdb5e9219711477&js_code=021kJQff1fR6Ar0PJydf1uDZff1kJQfc&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Thu, 17 Jan 2019 08:20:01 GMT
+Content-Length: 82
+
+{"session_key":"qjtgTGpmmZ+7Gm0y2JfYwg==","openid":"oencv5YZtmpenJbHkSnvUSXMk_xA"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wx2ddd9a27cea824aa/devtools/page-frame.html"
+2019/01/17 16:46:03 [warn] 6#6: *224 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/02/0000000020 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/bind HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 11:26:21 [warn] 6#6: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/competitions/11 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 13:57:13 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 13:59:11 [warn] 6#6: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 15:43:23 [warn] 6#6: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 16:36:05 [warn] 6#6: *33 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/competitions/11/applies/2/certificate HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 16:36:28 [warn] 6#6: *33 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/competitions/11/applies/2/certificate HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 16:46:28 [warn] 6#6: *42 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/applies/2/certificate HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 16:47:09 [warn] 6#6: *42 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/applies/2/certificate HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 17:50:27 [warn] 6#6: *46 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.18.0.1, server: www.m.test, request: "POST /api/upload HTTP/1.1", host: "www.m.test"
+2019/01/18 17:50:28 [warn] 6#6: *46 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/upload HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/18 17:52:33 [warn] 6#6: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.18.0.1, server: www.m.test, request: "POST /api/upload HTTP/1.1", host: "www.m.test"
+2019/01/21 11:42:18 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/category/stage HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/21 11:42:45 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/category/stage HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/21 14:59:32 [warn] 10#10: *3 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/21 15:00:17 [warn] 10#10: *3 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/21 15:00:58 [warn] 10#10: *3 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/21 16:15:30 [warn] 10#10: *15 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/category/industry HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/21 17:34:50 [warn] 10#10: *24 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/category/progress HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/21 18:34:23 [warn] 10#10: *36 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/applies/2 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/22 15:39:36 [warn] 6#6: *12 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/users/applies HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/22 16:53:17 [warn] 6#6: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/applies/2/edit HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/23 17:58:34 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/23 18:01:45 [warn] 6#6: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/23 18:02:51 [warn] 6#6: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/24 15:10:16 [warn] 6#6: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "DELETE /api/applies/2/edit HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/25 11:00:28 [warn] 6#6: *3 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/25 11:02:36 [warn] 6#6: *6 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/25 11:35:35 [warn] 6#6: *16 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/25 11:37:47 [warn] 6#6: *19 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/25 15:41:41 [warn] 6#6: *27 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/28 14:59:54 [warn] 6#6: *7 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/projects HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/01/28 17:43:20 [warn] 6#6: *16 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/projects HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/21 17:51:15 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/manage/user HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/21 18:03:27 [warn] 6#6: *16 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/manage/user HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/22 17:44:11 [warn] 7#7: *26 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "DELETE /api/admin/admins/3/roles HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.m.test"
+2019/02/25 14:09:31 [error] 6#6: *7 FastCGI sent in stderr: "PHP message: [2019-02-25 06:09:30] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_ihEyYMkUWfUdFVRbjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWX8X7yg6PQfItHlXZRbt3CaVrRsWKrQh3ZWrU-f5l9wTGCoPvem8x_gPNKW3RCNbIdKCqRn8duEbzoDxXzx1SBcFNJiAGAQYU&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=061doKiM00hc5b2T00iM0ywHiM0doKiD&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:09:27 GMT
+Content-Length: 83
+
+{"session_key":"jLsTXLHC32y+\/m+hfd62dw==","openid":"o1eCK5d2z9BUBh09QC2SZ8293g68"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:09:34 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [2019-02-25 06:09:33] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_NFyymfe7wiOMMiDKjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWUxe--OxHwKP_NarzPSbVT_nCWPt6OPpL2VbWRqvpxzRRVg1vxqsuIM56wlvbOcvSm4IUPGAPoWvDws5OZf99tHRCTiAGABMD&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=061doKiM00hc5b2T00iM0ywHiM0doKiD&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:09:30 GMT
+Content-Length: 81
+
+{"errcode":40163,"errmsg":"code been used, hints: [ req_id: eGmAqRLnRa-CFy1la ]"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:09:34 [warn] 6#6: *9 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:10:23 [error] 6#6: *7 FastCGI sent in stderr: "PHP message: [2019-02-25 06:10:23] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_aKftJWzMUtEWV_-wjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWVmLxDkl1FM1moFdF89K5VRNst4g-09dNNNVcuQTdDEc0tzu4nPLAat2YG7hAUZaek4jqcmf6cl-xdnprn8n_gSHGHiAGALKL&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=001QTOp60NVOZD11NGo60c4aq60QTOpd&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:10:20 GMT
+Content-Length: 78
+
+{"errcode":40163,"errmsg":"code been used, hints: [ req_id: EGmA0qLnRa-lgE ]"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:10:23 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [2019-02-25 06:10:23] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_aKftJWzMUtEWV_-wjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWVmLxDkl1FM1moFdF89K5VRNst4g-09dNNNVcuQTdDEc0tzu4nPLAat2YG7hAUZaek4jqcmf6cl-xdnprn8n_gSHGHiAGALKL&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=001QTOp60NVOZD11NGo60c4aq60QTOpd&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:10:20 GMT
+Content-Length: 83
+
+{"session_key":"jLsTXLHC32y+\/m+hfd62dw==","openid":"o1eCK5d2z9BUBh09QC2SZ8293g68"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:10:55 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [2019-02-25 06:10:55] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_aKftJWzMUtEWV_-wjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWVmLxDkl1FM1moFdF89K5VRNst4g-09dNNNVcuQTdDEc0tzu4nPLAat2YG7hAUZaek4jqcmf6cl-xdnprn8n_gSHGHiAGALKL&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=081RtSo82NUMtK0c40p829iQo82RtSoo&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:10:52 GMT
+Content-Length: 83
+
+{"session_key":"jLsTXLHC32y+\/m+hfd62dw==","openid":"o1eCK5d2z9BUBh09QC2SZ8293g68"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:10:55 [error] 6#6: *7 FastCGI sent in stderr: "PHP message: [2019-02-25 06:10:55] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_aKftJWzMUtEWV_-wjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWVmLxDkl1FM1moFdF89K5VRNst4g-09dNNNVcuQTdDEc0tzu4nPLAat2YG7hAUZaek4jqcmf6cl-xdnprn8n_gSHGHiAGALKL&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=081RtSo82NUMtK0c40p829iQo82RtSoo&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:10:52 GMT
+Content-Length: 83
+
+{"session_key":"jLsTXLHC32y+\/m+hfd62dw==","openid":"o1eCK5d2z9BUBh09QC2SZ8293g68"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:11:03 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [2019-02-25 06:11:03] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_aKftJWzMUtEWV_-wjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWVmLxDkl1FM1moFdF89K5VRNst4g-09dNNNVcuQTdDEc0tzu4nPLAat2YG7hAUZaek4jqcmf6cl-xdnprn8n_gSHGHiAGALKL&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=011Ex1BA0l9Q6h2QtSxA0MnOAA0Ex1Bv&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:11:00 GMT
+Content-Length: 83
+
+{"session_key":"jLsTXLHC32y+\/m+hfd62dw==","openid":"o1eCK5d2z9BUBh09QC2SZ8293g68"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:11:03 [error] 6#6: *7 FastCGI sent in stderr: "PHP message: [2019-02-25 06:11:03] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=18_aKftJWzMUtEWV_-wjbL3QfZLwnTa2488SGBXHhbm-UJ8asyMQGOBnZmEbWVmLxDkl1FM1moFdF89K5VRNst4g-09dNNNVcuQTdDEc0tzu4nPLAat2YG7hAUZaek4jqcmf6cl-xdnprn8n_gSHGHiAGALKL&appid=wxcb0a150ce205fbc2&secret=910dfd9846aef8c0f48c2b039b763e9a&js_code=011Ex1BA0l9Q6h2QtSxA0MnOAA0Ex1Bv&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 25 Feb 2019 06:11:00 GMT
+Content-Length: 80
+
+{"errcode":40163,"errmsg":"code been used, hints: [ req_id: fGmAgzyFe-w.gLea ]"}
+--------
+NULL" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/wechat/auth HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test", referrer: "https://servicewechat.com/wxcb0a150ce205fbc2/devtools/page-frame.html"
+2019/02/25 14:40:33 [warn] 6#6: *30 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "PUT /api/category/project_type HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/27 11:31:47 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/teams/1/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/27 11:41:42 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/28 14:07:00 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/7/teams HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/28 14:48:48 [warn] 6#6: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/7/teams/5/check HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/02/28 16:54:15 [warn] 6#6: *28 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/7/bbs HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/04 16:15:49 [warn] 6#6: *12 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/questions/3/answers HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/04 16:49:21 [warn] 6#6: *20 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/questions/mine HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/05 18:49:15 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.m.test"
+2019/03/05 18:51:48 [warn] 6#6: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.m.test"
+2019/03/05 18:52:22 [warn] 6#6: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/competitions HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.m.test"
+2019/03/07 14:41:55 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/mini_programs HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/07 15:34:44 [warn] 6#6: *13 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/open_classes HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/07 15:34:54 [warn] 6#6: *13 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/open_classes HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 15:08:50 [warn] 6#6: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/procedures/16/indexes HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 16:26:44 [error] 6#6: *19 FastCGI sent in stderr: "PHP message: [2019-03-13 08:26:44] NULL.INFO: >>>>>>>>
+POST /cgi-bin/wxaapp/createwxaqrcode?access_token=19_OJhSvmYR2hRy5x72FCh-9Z1cogBN1AtUOoxedR3zrLCuSDkVNoeud_1MdCDOiIWcNVYYDUpamiMEfW-hSgQpMu32ghtl58pbkwDE_kN0e_kZzDUQgtSBA7X1Qwj5jfa5Rbi1ZmJvlamt2rdzLSDcABAGNY HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 75
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+Content-Type: application/json
+
+{"path":"pages\/tournamenttDetails\/tournamenttDetails?id=11","width":null}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/jpeg
+Content-disposition: attachment; filename="_app_pages/tournamenttDetails/tournamenttDetails?id=11.jpg"
+Date: Wed, 13 Mar 2019 08:26:43 GMT
+Content-Length: 55363
+
+ÿØÿà" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 16:30:05 [error] 6#6: *21 FastCGI sent in stderr: "PHP message: [2019-03-13 08:30:05] NULL.INFO: >>>>>>>>
+POST /cgi-bin/wxaapp/createwxaqrcode?access_token=19_OJhSvmYR2hRy5x72FCh-9Z1cogBN1AtUOoxedR3zrLCuSDkVNoeud_1MdCDOiIWcNVYYDUpamiMEfW-hSgQpMu32ghtl58pbkwDE_kN0e_kZzDUQgtSBA7X1Qwj5jfa5Rbi1ZmJvlamt2rdzLSDcABAGNY HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 75
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+Content-Type: application/json
+
+{"path":"pages\/tournamenttDetails\/tournamenttDetails?id=11","width":null}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/jpeg
+Content-disposition: attachment; filename="_app_pages/tournamenttDetails/tournamenttDetails?id=11.jpg"
+Date: Wed, 13 Mar 2019 08:30:04 GMT
+Content-Length: 55363
+
+ÿØÿà" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 16:32:26 [error] 6#6: *23 FastCGI sent in stderr: "PHP message: [2019-03-13 08:32:26] NULL.INFO: >>>>>>>>
+POST /cgi-bin/wxaapp/createwxaqrcode?access_token=19_OJhSvmYR2hRy5x72FCh-9Z1cogBN1AtUOoxedR3zrLCuSDkVNoeud_1MdCDOiIWcNVYYDUpamiMEfW-hSgQpMu32ghtl58pbkwDE_kN0e_kZzDUQgtSBA7X1Qwj5jfa5Rbi1ZmJvlamt2rdzLSDcABAGNY HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 75
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+Content-Type: application/json
+
+{"path":"pages\/tournamenttDetails\/tournamenttDetails?id=11","width":null}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/jpeg
+Content-disposition: attachment; filename="_app_pages/tournamenttDetails/tournamenttDetails?id=11.jpg"
+Date: Wed, 13 Mar 2019 08:32:25 GMT
+Content-Length: 55363
+
+ÿØÿà" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 16:33:02 [error] 6#6: *23 FastCGI sent in stderr: "PHP message: [2019-03-13 08:33:02] NULL.INFO: >>>>>>>>
+POST /cgi-bin/wxaapp/createwxaqrcode?access_token=19_OJhSvmYR2hRy5x72FCh-9Z1cogBN1AtUOoxedR3zrLCuSDkVNoeud_1MdCDOiIWcNVYYDUpamiMEfW-hSgQpMu32ghtl58pbkwDE_kN0e_kZzDUQgtSBA7X1Qwj5jfa5Rbi1ZmJvlamt2rdzLSDcABAGNY HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 75
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+Content-Type: application/json
+
+{"path":"pages\/tournamenttDetails\/tournamenttDetails?id=11","width":null}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/jpeg
+Content-disposition: attachment; filename="_app_pages/tournamenttDetails/tournamenttDetails?id=11.jpg"
+Date: Wed, 13 Mar 2019 08:33:01 GMT
+Content-Length: 55363
+
+ÿØÿà" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 17:10:09 [error] 6#6: *29 FastCGI sent in stderr: "PHP message: [2019-03-13 09:10:09] NULL.INFO: >>>>>>>>
+POST /cgi-bin/wxaapp/createwxaqrcode?access_token=19_OJhSvmYR2hRy5x72FCh-9Z1cogBN1AtUOoxedR3zrLCuSDkVNoeud_1MdCDOiIWcNVYYDUpamiMEfW-hSgQpMu32ghtl58pbkwDE_kN0e_kZzDUQgtSBA7X1Qwj5jfa5Rbi1ZmJvlamt2rdzLSDcABAGNY HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 75
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+Content-Type: application/json
+
+{"path":"pages\/tournamenttDetails\/tournamenttDetails?id=11","width":null}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/jpeg
+Content-disposition: attachment; filename="_app_pages/tournamenttDetails/tournamenttDetails?id=11.jpg"
+Date: Wed, 13 Mar 2019 09:10:08 GMT
+Content-Length: 55363
+
+ÿØÿà" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 17:30:36 [error] 6#6: *34 FastCGI sent in stderr: "PHP message: [2019-03-13 09:30:36] NULL.INFO: >>>>>>>>
+POST /cgi-bin/wxaapp/createwxaqrcode?access_token=19_OJhSvmYR2hRy5x72FCh-9Z1cogBN1AtUOoxedR3zrLCuSDkVNoeud_1MdCDOiIWcNVYYDUpamiMEfW-hSgQpMu32ghtl58pbkwDE_kN0e_kZzDUQgtSBA7X1Qwj5jfa5Rbi1ZmJvlamt2rdzLSDcABAGNY HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 75
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+Content-Type: application/json
+
+{"path":"pages\/tournamenttDetails\/tournamenttDetails?id=58","width":null}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/jpeg
+Content-disposition: attachment; filename="_app_pages/tournamenttDetails/tournamenttDetails?id=58.jpg"
+Date: Wed, 13 Mar 2019 09:30:35 GMT
+Content-Length: 55432
+
+ÿØÿà" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/58/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/13 17:53:29 [warn] 6#6: *38 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/custom_info HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/14 11:53:58 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/category/classification HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/14 13:55:42 [warn] 6#6: *6 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/rater HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/14 14:00:24 [warn] 6#6: *9 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/competitions/11/rater HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/14 15:16:34 [warn] 6#6: *19 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/rater HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/14 15:19:25 [warn] 6#6: *21 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/admin/competitions/11/rater HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/18 15:35:30 [warn] 6#6: *7 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/15 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/19 11:00:37 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/competitions/11 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/19 11:02:48 [warn] 6#6: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/competitions/11 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/19 14:46:58 [warn] 6#6: *12 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/11/scores HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/19 16:35:51 [warn] 6#6: *16 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/competitions/11/apply_project/with/user HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/19 17:15:08 [warn] 6#6: *28 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/16/remarks HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/19 19:06:00 [warn] 6#6: *33 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/16/scores HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/19 19:46:08 [warn] 6#6: *47 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/27/edit HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/20 18:58:23 [warn] 6#6: *26 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/16/simple/info HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/25 11:15:25 [warn] 6#6: *13 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/manage/competitions/11/applies/20/check HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/26 17:45:19 [warn] 8#8: *8 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/40/bp/download?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93d3cubS50ZXN0XC9hcGlcL3dlY2hhdFwvYmluZCIsImlhdCI6MTU0NzcxNDgxOSwibmJmIjoxNTQ3NzE0ODE5LCJqdGkiOiJSTTVjU0VWZHA5Szhpdmh4IiwiZXhwIjo5Mjg2MjgxMjk0MCwic3ViIjoxLCJwcnYiOiIxYjJiNzMxNDcxYTIwNGU0ZGFmNTE0Y2JiZWMzY2Y4YTc5ODhlNGIzIn0.T7yMSn2mm6uCwOTJn80YPKsrbTXRgfOgtsesa69RzXE HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/26 17:49:05 [warn] 8#8: *10 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/40/bp/download?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93d3cubS50ZXN0XC9hcGlcL3dlY2hhdFwvYmluZCIsImlhdCI6MTU0NzcxNDgxOSwibmJmIjoxNTQ3NzE0ODE5LCJqdGkiOiJSTTVjU0VWZHA5Szhpdmh4IiwiZXhwIjo5Mjg2MjgxMjk0MCwic3ViIjoxLCJwcnYiOiIxYjJiNzMxNDcxYTIwNGU0ZGFmNTE0Y2JiZWMzY2Y4YTc5ODhlNGIzIn0.T7yMSn2mm6uCwOTJn80YPKsrbTXRgfOgtsesa69RzXE HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/26 18:46:32 [warn] 8#8: *48 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /admin/projects/40/bp/download?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC93d3cubS50ZXN0XC9hcGlcL2FkbWluXC9jb25maXJtIiwiaWF0IjoxNTQ3NzEzNTc3LCJuYmYiOjE1NDc3MTM1NzcsImp0aSI6Ik9pa2RCTHBGYkFEcElsMFQiLCJleHAiOjkyODYyODEyOTQwLCJzdWIiOjEsInBydiI6ImM4MjkyMjM4MzVkMTExMzhmMDhhY2U1NmZmYTY2MjhiYzI2ODNjYjUifQ.4gEK3sDOoSiIqeJdsBlRxr6Kx8uv34lycabb18quGE4 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 10:39:05 [warn] 6#6: *4 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/11/teams HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 10:40:45 [warn] 6#6: *6 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/11/teams HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 11:09:51 [warn] 6#6: *14 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/11/teams HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 11:27:19 [warn] 6#6: *19 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/11/helpers HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 15:53:06 [warn] 6#6: *67 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/custom/tags HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 16:05:08 [warn] 6#6: *72 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/custom/tags HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 16:06:38 [warn] 6#6: *74 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/custom/tags HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 16:08:37 [warn] 6#6: *74 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/custom/tags HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 16:52:04 [warn] 6#6: *87 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/11/products/1 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 17:05:30 [warn] 6#6: *90 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "DELETE /api/projects/11/core_teams HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 17:05:43 [warn] 6#6: *90 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/11/core_teams HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 17:52:30 [warn] 6#6: *102 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/projects/11/milestones HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/03/28 18:53:30 [warn] 6#6: *120 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/01/0000000013 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/11 HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/04/01 15:16:02 [warn] 6#6: *32 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/users/my/all_info HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/04/01 16:57:43 [error] 6#6: *35 FastCGI sent in stderr: "PHP message: [2019-04-01 08:57:42] NULL.INFO: >>>>>>>>
+POST /cgi-bin/wxaapp/createwxaqrcode?access_token=20_1x5-Nx0UoCkhZjIc3pT9gvQ_a9M51h-PouCCfvCQqIELq1fQHfEReDDG92VlG9GKR_uEPeoPPqLJGY8NQT5howQF5m_Fn3Ui79FdSxSyCxx4RmXjTNwY_Ojoy9QTKKiAHALCC HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 68
+User-Agent: GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.13
+Content-Type: application/json
+
+{"path":"pages\/ProjectDetail\/ProjectDetail?proid=11","width":null}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/jpeg
+Content-disposition: attachment; filename="_app_pages/ProjectDetail/ProjectDetail?proid=11.jpg"
+Date: Mon, 01 Apr 2019 08:57:41 GMT
+Content-Length: 55835
+
+ÿØÿà" while reading response header from upstream, client: 172.18.0.1, server: www.m.test, request: "GET /api/projects/11/qrcode HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
+2019/04/01 20:17:26 [warn] 6#6: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: www.m.test, request: "POST /api/admin/manage/user HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "www.m.test"
